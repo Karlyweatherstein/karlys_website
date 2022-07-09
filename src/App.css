@@ -7,6 +7,7 @@
 /* Fonts */
 .paragraphFonts {
   font-family: 'Lora', serif;
+  font-weight: bold;
 }
 
 .titleFonts {
@@ -52,7 +53,7 @@ nav ul li a:hover{
 /* Hero */
 .hero {
   display: flex;
-  margin: 60px auto;
+  margin: 70px auto 80px auto;
   align-items: center;
 }
 
@@ -103,11 +104,36 @@ nav ul li a:hover{
 }
 
 
+/* About */
+.about h1 {
+  text-align: center;
+  margin: 40px;
+  font-size: 3vw;
+}
+
+.about-div {
+  display: flex;
+  align-items: center;
+}
+
+.profilePic {
+  width: 26%;
+  margin: 25px 25px 25px 40px;
+  
+}
+
+.aboutText {
+  width: auto;
+  margin: 30px;
+  line-height: 1.90vw;
+  font-size: 1.10vw;
+}
+
+
+
 /* Footer */
 footer {
-  display: block;
   position: absolute;
-  bottom: 0;
   width: 100%;
   height: auto;
 }
@@ -131,6 +157,32 @@ footer ul li a img {
   color: black;
 
 }
+
+
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 1040px) {
+  /* About */
+  .about-div {
+    display: block;
+    justify-content: space-around;
+  }
+
+  .profilePic {
+    width: 40%;
+    margin: 30px auto;  
+    display: flex;
+  }
+
+  .aboutText {
+    width: auto;
+    margin: 20px;
+    display: flex;
+    font-size: large;
+    line-height: 2em;
+  }
+}
+
 
 /* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px) {
