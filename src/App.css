@@ -4,7 +4,6 @@
 }
 
 
-
 /* Fonts */
 .paragraphFonts {
   font-family: 'Lora', serif;
@@ -20,7 +19,7 @@ nav {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  margin: 0;
+  margin: 0 0 10px 0;
 }
 
 nav h1 {
@@ -49,9 +48,64 @@ nav ul li a:hover{
   color: rgb(186, 144, 88);
 }
 
-/* Footer */
 
+/* Hero */
+.hero {
+  display: flex;
+  margin: 60px auto;
+  align-items: center;
+}
+
+.polaroid {
+  width: 45%;
+  display: flex;
+}
+
+.polaroid img {
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  border: 12px solid white;
+  border-bottom: 100px solid white;
+  margin: auto;
+  box-shadow: 0 0 8px rgb(57, 57, 57);
+  transform: rotate(-4deg);
+}
+
+.heroText {
+  width: 50%;
+  align-items: left;
+}
+
+.heroText h1 {
+  font-size: 4vw;
+  margin-bottom: 24px;
+
+}
+
+.heroText p {
+  font-size: 1.25vw;
+  margin: 4px 4px 14px 4px;
+}
+
+.aboutButton {
+  background-color: rgb(54, 54, 54);
+  margin: 4px;
+  color: rgb(223, 206, 209);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 14px;
+}
+
+.aboutButton:hover {
+  background-color: rgb(186, 144, 88);
+ 
+}
+
+
+/* Footer */
 footer {
+  display: block;
   position: absolute;
   bottom: 0;
   width: 100%;
@@ -76,4 +130,19 @@ footer ul li a img {
   height: auto;
   color: black;
 
+}
+
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+  .hero {
+    display: block;
+    justify-content: space-around ;
+  }
+
+  footer {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
 }

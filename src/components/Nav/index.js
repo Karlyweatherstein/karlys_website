@@ -11,10 +11,6 @@ function Nav() {
           <li>
             <Link to="/">Home</Link>
           </li>
-          {/* About me */}
-          <li>
-            <Link to="/about">About</Link>
-          </li>
           {/* Portfolio */}
           <li>
             <Link to="/portfolio">Portfolio</Link>
