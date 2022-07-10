@@ -9,7 +9,7 @@ function Nav() {
         <ul>
           {/* Home */}
           <li>
-            <Link to="/">Home</Link>
+            <Link to="/karlys-website">Home</Link>
           </li>
           {/* Portfolio */}
           <li>
