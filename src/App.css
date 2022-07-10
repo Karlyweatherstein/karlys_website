@@ -261,7 +261,59 @@ footer ul li a img {
 
 
 /* MEDIA QUERY FOR smaller computers */
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 1020px) {
+  /* Nav */
+  nav {
+    display: inline-block;
+    text-align: center;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 8px;
+  }
+
+  /* Hero */
+  .hero {
+    text-align: center;
+
+  }
+
+  .polaroid {
+    display: flex;
+    margin: auto;
+  }
+
+  .polaroid img {
+    width: 100%;
+    border: 6px solid white;
+    border-bottom: 40px solid white;
+    transform: rotate(0)
+  }
+
+  .heroText {
+    text-align: center;
+    align-items: center;
+    margin: auto;
+  }
+
+  .heroText h1 {
+    font-size: 36px;
+  }
+
+  .heroText p {
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .aboutButton {
+    font-size: 18px;
+  }
+
   /* About */
   .about-div {
     display: block;
