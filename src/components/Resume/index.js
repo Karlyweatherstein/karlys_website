@@ -5,7 +5,7 @@ function Resume() {
     <div className="resume">
       <h1 className="titleFonts">Resume</h1>
       <a
-        href="https://drive.google.com/uc?export=download&id=1-x9ojKlaYUUrDUJNLeVTxN8to79GCfvd"
+        href="https://docs.google.com/document/d/1C42H_RRKn1co0zg9R0lGRSxBVOU-Zm2CLmr6SgAH4xw/export?format=pdf"
         download="karly-weatherstein-resume"
       >
         <h2 className="paragraphFonts">Click this to download my resume!</h2>
