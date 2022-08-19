@@ -20,6 +20,17 @@ function Resume() {
         <li>MongoDB</li>
         <li>Express</li>
       </ul>
+      <div
+        data-iframe-width="150"
+        data-iframe-height="270"
+        data-share-badge-id="e85aec13-010c-4d02-81d5-6f52a0a7c7d7"
+        data-share-badge-host="https://www.credly.com"
+      ></div>
+      <script
+        type="text/javascript"
+        async
+        src="//cdn.credly.com/assets/utilities/embed.js"
+      ></script>
     </div>
   );
 }
