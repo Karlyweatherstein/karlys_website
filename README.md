@@ -12,4 +12,4 @@
 
 - GitHub URL for this project: https://github.com/Karlyweatherstein/karlys-website
 
-- Deployed URL: https://karlyweatherstein.github.io/karlys-website/
+- Deployed URL: https://karlyweatherstein.github.io/karlys_website/
